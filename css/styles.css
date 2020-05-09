@@ -68,6 +68,20 @@ p{
   right: 30%;
 }
 
+/* Media Query */
+
+@media (max-width: 900px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
 
 
 /* Features Section */
@@ -171,16 +185,3 @@ p{
   text-shadow: 1px 1px 4px black;
 }
 
-/* Media Query */
-
-@media (max-width: 1200px) {
-
-  #title{
-    text-align: center;
-  }
-
-  .title-img{
-    position: static;
-    transform: rotate(0);
-  }
-}
